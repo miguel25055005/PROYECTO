@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Passion Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../../public/assets/landing/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../public/assets/landing/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../public/assets/landing/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../../public/assets/landing/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../../public/assets/landing/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Passion
+  * Template URL: https://bootstrapmade.com/passion-bootstrap-template/
+  * Updated: Jul 21 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center dark-background">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">miguelclaros463@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+57 320 203 8621</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.php" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">Bycles</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Inicio</a></li>
+            <li><a href="#about">Sobre nosostros</a></li>
+            <li><a href="#featured-services">Servicios</a></li>
+            <li><a href="#bicicletas">Bicicletas</a></li>
+            
+
+           
+
+            <li><a href="#contactanos">Contacto</a></li>
+
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="hero-background">
+        <img src="assets/img/bg/bg-14.webp" alt="" data-aos-duration="1000">
+        <div class="overlay"></div>
+      </div>
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <span class="hero-badge">Alquiler Y Confianza</span>
+              <h1>Hacemos De Tu Educación Una Mejor Experiencia</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+              <div class="hero-actions">
+                <a href="#featured-services" class="btn-primary">Explorar Servicios</a>
+                <a href="https://youtu.be/CkJmpMP4Woo?si=6Y2STF2O4FfbTdRp" class="btn-secondary glightbox">
+                  <i class="bi bi-play-circle"></i>
+                  <span>Lo Que Debes Saber</span>
+                </a>
+              </div>
+              <div class="hero-stats">
+                <div class="stat-item">
+                  <span class="stat-number">500+</span>
+                  <span class="stat-label">Alquileres</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">98%</span>
+                  <span class="stat-label">Satisfacción</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">24/7</span>
+                  <span class="stat-label">Disponibilidad</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-visual">
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="feature-card">
+                    <i class="bi bi-shield-check"></i>
+                    <span>Seguridad</span>
+                  </div>
+                  <div class="feature-card">
+                    <i class="bi bi-people"></i>
+                    <span>Equipos Expertos</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feature-card">
+                    <i class="bi bi-speedometer2"></i>
+                    <span>Horarios accesibles</span>
+                  </div>
+                  <div class="feature-card">
+                    <i class="bi bi-award"></i>
+                    <span>Certificados</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="content">
+              <h2>Pedaleando hacia un Futuro Sostenible</h2>
+              <p class="lead">En el SENA promovemos la movilidad sostenible y el bienestar de nuestra comunidad educativa. Por eso, hemos implementado un sistema de préstamo de bicicletas institucionales, diseñado para facilitar el desplazamiento de aprendices y funcionarios, al tiempo que fomentamos el uso de medios de transporte amigables con el medio ambiente.</p>
+              <p>Este proyecto busca no solo optimizar el uso de los recursos disponibles, sino también fortalecer los valores de salud, sostenibilidad y trabajo colaborativo. A través de nuestra plataforma, los usuarios pueden alquilar bicicletas fácilmente, participar en ciclopaseos y eventos ecológicos, y contribuir activamente a la reducción de la huella de carbono en nuestras regionales.</p>
+              <p>Con esta iniciativa, el SENA reafirma su compromiso con la innovación, la formación integral y el desarrollo responsable de su comunidad.</p>
+
+              <div class="stats-container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="stat-item">
+                      <div class="number">50+</div>
+                      <div class="label">Bicicletas</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="stat-item">
+                      <div class="number">450+</div>
+                      <div class="label">Alquileres Realizados</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="stat-item">
+                      <div class="number">5+</div>
+                      <div class="label">Eventos Por Mes</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-wrapper">
+                <a href="#bicicletas" class="btn btn-primary">Descubre Nuestras Bicicletas</a>
+                <a href="#contactanos" class="btn btn-outline">Contactanos</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="image-wrapper">
+              <img src="../../public/assets/landing/img/conocenos.jpg" alt="About Us" class="img-fluid main-image">
+              <div class="floating-card">
+                <div class="card-content">
+                  <i class="bi bi-award"></i>
+                  <div class="text">
+                    <h5>Premio A La Excelencia</h5>
+                    <span>Innovación Digital 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div>
+
+        <div class="clients-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 6000,
+              "autoplay": {
+                "delay": 1,
+                "disableOnInteraction": false
+              },
+              "centeredSlides": true,
+              "slideToClickedSlide": true,
+              "slidesPerView": "auto",
+              "spaceBetween": 40,
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 20
+                },
+                "640": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "992": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 30
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 40
+                }
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/logoSena.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/ministerioDeTransporte.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/ministerioDeAmbiente.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/alcaldiaDeVilleta.jpg" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/movilidadSostenible.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/ministerioDeTransporte.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/ministerioDeAmbiente.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/alcaldiaDeVilleta.jpg" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/movilidadSostenible.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/logoSena.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/ministerioDeTransporte.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="../../public/assets/landing/img/ministerioDeAmbiente.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Servicios</h2>
+        <p>Nuestros Servicios</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="services-content" data-aos-duration="900">
+              <span class="subtitle">Servicios de alquiler</span>
+              <h2>Facilita tu movilidad con el sistema de alquiler de bicicletas del SENA</h2>
+              <p data-aos-duration="800">Con nuestro sistema podrás alquilar bicicletas fácilmente y registrarte en eventos de ciclopaseo. La plataforma está diseñada para funcionarios y aprendices que buscan una alternativa de transporte rápida, saludable y sostenible dentro de las regionales participantes.</p>
+              <div class="mt-4" data-aos-duration="1100">
+                <a href="../extras/login.php" class="btn-consultation"><span>Solicitar Bicicleta</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="services-image">
+              <img src="../../public/assets/landing/img/servicios.jpg" alt="Business Services" class="img-fluid">
+              <div class="shape-circle"></div>
+              <div class="shape-accent"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5" data-aos-duration="1000">
+          <div class="col-12">
+            <div class="services-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20,
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "navigation": {
+                    "nextEl": ".swiper-nav-next",
+                    "prevEl": ".swiper-nav-prev"
+                  },
+                  "breakpoints": {
+                    "320": {
+                      "slidesPerView": 1
+                    },
+                    "768": {
+                      "slidesPerView": 2
+                    },
+                    "992": {
+                      "slidesPerView": 3
+                    }
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="service-card">
+                    <div class="icon-box">
+                      <i class="bi bi-bar-chart-fill"></i>
+                    </div>
+                    <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                    <div class="content">
+                      <h4><a href="#">Bicicletas financidas</a></h4>
+                      <p>Nuestro programa ofrece la posibilidad de acceder a bicicletas mediante apoyo o financiación institucional, facilitando su adquisición para promover la movilidad dentro de las regionales.</p>
+                      <div class="service-number">01</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="service-card">
+                    <div class="icon-box">
+                      <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                    <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                    <div class="content">
+                      <h4><a href="#">Gestión y Monitoreo</a></h4>
+                      <p>Ofrecemos herramientas para analizar el rendimiento del sistema, conocer las bicicletas más utilizadas y generar reportes sobre la movilidad de aprendices y docentes y funcionarias del SENA.</p>
+                      <div class="service-number">02</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="service-card">
+                    <div class="icon-box">
+                      <i class="bi bi-shield-check"></i>
+                    </div>
+                    <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                    <div class="content">
+                      <h4><a href="#">Control Y Protección</a></h4>
+                      <p>La plataforma cuenta con medidas de seguridad digital y física, asegurando que cada bicicleta y usuario estén correctamente identificados. Así, evitamos fraudes y mantenemos la integridad del servicio.</p>
+                      <div class="service-number">03</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="service-card">
+                    <div class="icon-box">
+                      <i class="bi bi-lightbulb-fill"></i>
+                    </div>
+                    <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                    <div class="content">
+                      <h4><a href="#">Innovacion</a></h4>
+                      <p>Implementamos tecnología moderna para optimizar el alquiler de bicicletas y la gestión de eventos ciclistas. Nuestro sistema facilita una experiencia ágil, segura y totalmente digital para aprendices y funcionarios.</p>
+                      <div class="service-number">04</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="service-card">
+                    <div class="icon-box">
+                      <i class="bi bi-people-fill"></i>
+                    </div>
+                    <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                    <div class="content">
+                      <h4><a href="#">Formación y Cultura Vial</a></h4>
+                      <p>Promovemos el aprendizaje sobre normas de tránsito y seguridad vial. <br><br> Los usuarios reciben orientación antes de acceder al servicio de bicicletas.</p>
+                      <div class="service-number">05</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper-navigation">
+              <button class="swiper-nav-prev"><i class="bi bi-chevron-left"></i></button>
+              <button class="swiper-nav-next"><i class="bi bi-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- How We Work Section -->
+  
+
+    <!-- Features Section -->
+  
+
+    <!-- Services Section -->
+    <section id="bicicletas" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Bicicletas</h2>
+        <p>NUESTRAS BICICLETAS</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card compact">
+              <div class="service-content">
+    
+                <img src="../../public/assets/landing/img/cicla.png" alt="">
+                 <h2>GW - <span class="estado">Dispobible</span></h2>
+                 <h2>Color: <span class="color">Rojo</span></h2>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <h2>$20000</h2>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="../extras/login.php" class="btn-cta">
+                    <span>Adquirir</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                  </div>
+                 </div> 
+
+              </div>
+              <div class="service-bg"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card compact">
+              <div class="service-content">
+    
+                <img src="../../public/assets/landing/img/cicla.png" alt="">
+                 <h2>GW - <span class="estado">Dispobible</span></h2>
+                 <h2>Color: <span class="color">Rojo</span></h2>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <h2>$20000</h2>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="../extras/login.php" class="btn-cta">
+                    <span>Adquirir</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                  </div>
+                 </div> 
+
+              </div>
+              <div class="service-bg"></div>
+            </div>
+          </div>
+
+      <div class="col-lg-4 col-md-6">
+            <div class="service-card compact">
+              <div class="service-content">
+    
+                <img src="../../public/assets/landing/img/cicla.png" alt="">
+                 <h2>GW - <span class="estado">Dispobible</span></h2>
+                 <h2>Color: <span class="color">Rojo</span></h2>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <h2>$20000</h2>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="../extras/login.php" class="btn-cta">
+                    <span>Adquirir</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                  </div>
+                 </div> 
+
+              </div>
+              <div class="service-bg"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card compact">
+              <div class="service-content">
+    
+                <img src="../../public/assets/landing/img/cicla.png" alt="">
+                 <h2>GW - <span class="estado">Dispobible</span></h2>
+                 <h2>Color: <span class="color">Rojo</span></h2>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <h2>$20000</h2>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="../extras/login.php" class="btn-cta">
+                    <span>Adquirir</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                  </div>
+                 </div> 
+
+              </div>
+              <div class="service-bg"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card compact">
+              <div class="service-content">
+    
+                <img src="../../public/assets/landing/img/cicla.png" alt="">
+                 <h2>GW - <span class="estado">Dispobible</span></h2>
+                 <h2>Color: <span class="color">Rojo</span></h2>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <h2>$20000</h2>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="../extras/login.php" class="btn-cta">
+                    <span>Adquirir</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                  </div>
+                 </div> 
+
+              </div>
+              <div class="service-bg"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card compact">
+              <div class="service-content">
+    
+                <img src="../../public/assets/landing/img/cicla.png" alt="">
+                 <h2>GW - <span class="estado">Dispobible</span></h2>
+                 <h2>Color: <span class="color">Rojo</span></h2>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <h2>$20000</h2>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="../extras/login.php" class="btn-cta">
+                    <span>Adquirir</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                  </div>
+                 </div> 
+
+              </div>
+              <div class="service-bg"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="../extras/login.php" class="button">
+          <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path></svg>
+          Ver Más
+        </a>
+          
+        
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <section id="contactanos">
+      <div class="container">
+        <h2>Contacatanos</h2>
+        <p>Diligencia este formulario para contactarnos</p>
+
+        <form action="../../controllers/correoContacto.php" method="POST">
+           <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombres</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nombres">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+          </div>
+
+           <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Telefono</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="telefono">
+          </div>
+
+           <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="asunto">
+          </div>
+
+           <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"></textarea>
+          </div>
+          
+
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+      </div>
+    </section>
+
+ 
+
+   
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.php" class="logo d-flex align-items-center">
+            <span class="sitename">Bycles</span>
+          </a>
+          <p>Pedalea con libertad. En Bycles te ofrecemos el mejor servicio de alquiler de bicicletas, con rutas seguras, equipos modernos y asistencia en cada recorrido. Contáctanos y súmate al movimiento sobre dos ruedas.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+           <a class="contacto" href="https://wa.link/06j842">Contacto</a>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#featured-services">Servicios</a></li>
+            <li><a href="#bicicletas">Bicicletas</a></li>
+            <li><a href="#footer">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Nuestros Servicios</h4>
+          <ul>
+            <li><a href="#">Biciceltas Financidadas</a></li>
+            <li><a href="#">Gestión y Monitoreo</a></li>
+            <li><a href="#">Control Y Protección</a></li>
+            <li><a href="#">Innovación</a></li>
+            <li><a href="#">Formación Y Cultura Vial</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contacto</h4>
+          <p>Miguel Claros</p>
+          <p>Villeta Cundinamarca</p>
+          <p>Colombia</p>
+          <p class="mt-4"><strong>Telefono:</strong> <span>+57 320 203 8621</span></p>
+          <p><strong>Email:</strong> <span>miguelclaros463@gmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Todos</strong> <span>Los Derechos Reservados</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="../../public/assets/landing/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../public/assets/landing/vendor/php-email-form/validate.js"></script>
+  <script src="../../public/assets/landing/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../../public/assets/landing/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../../public/assets/landing/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../../public/assets/landing/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../../public/assets/landing/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../../public/assets/landing/js/main.js"></script>
+
+</body>
+
+</html>
